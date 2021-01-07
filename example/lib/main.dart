@@ -81,7 +81,7 @@ class _MyAppState extends State<MyApp> {
       textDirection: TextDirection.ltr,
       child: Banner(
         location: BannerLocation.topEnd,
-        message: 'container',
+        message: 'flutter_native_boost',
         color: color,
         textStyle: TextStyle(
           color: CupertinoColors.white,

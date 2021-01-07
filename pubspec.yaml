@@ -1,6 +1,6 @@
 name: flutter_native_boost
 description: Flutter和Native页面混合栈管理
-version: 1.0.0
+version: 1.0.0.nullsafety.1
 homepage: https://github.com/bozaigao/flutter_native_boost
 
 environment:

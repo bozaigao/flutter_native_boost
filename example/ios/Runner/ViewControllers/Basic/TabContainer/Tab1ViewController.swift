@@ -1,0 +1,28 @@
+//
+//  Tab1ViewController.swift
+//  Runner
+//
+//
+
+import UIKit
+import flutter_native_boost
+
+class Tab1ViewController: BaseViewController, ContainerNavigationBarHiddenProtocol {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        navigationController?.setNavigationBarHidden(true, animated: true)
+
+        let vc = ContainerFlutterViewController("tab1")
+        
+        vc.willMove(toParent: self)
+        addChild(vc)
+        view.addSubview(vc.view)
+        vc.didMove(toParent: self)
+        
+        vc.view.frame = view.frame;
+        vc.view.autoresizingMask = [.flexibleWidth, .flexibleWidth]
+    }
+    
+}

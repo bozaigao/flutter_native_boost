@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "flutter_native_boost demo fluro",
+            "type": "dart",
+            "request": "launch",
+            "program": "lib/main_fluro.dart",
+            "args": [
+                "--no-sound-null-safety"
+            ]
+        },
+        {
+            "name": "flutter_native_boost get fluro",
+            "type": "dart",
+            "request": "launch",
+            "program": "lib/main_get.dart",
+            "args": [
+                "--no-sound-null-safety"
+            ]
+        },
+    ]
+}

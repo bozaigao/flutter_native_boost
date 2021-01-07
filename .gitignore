@@ -1,0 +1,13 @@
+.DS_Store
+.dart_tool/
+.idea
+
+.packages
+.pub/
+
+build/
+.flutter-plugins
+
+android-aar-repo
+ios-frameworks
+.container.json
